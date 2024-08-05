@@ -116,7 +116,7 @@ header .nav li.active ul.dropdown-menu li.active a{
 }
 header .nav li.active a,
 header .nav li.active a:hover{ 
-background: #99BF38 !important;
+background: rgb(0, 65, 160) !important;
 border-radius: 5px;
 }
 header .navbar-default .navbar-nav > .open > a,
@@ -296,7 +296,7 @@ border-left: 8px solid #fff;
 	position:relative;
 	margin:0;
 	padding:0;
-	border-bottom: 8px solid #99BF38;
+	border-bottom: 8px solid rgb(0, 65, 160);
 }
 
 /*  Sliders
@@ -317,7 +317,7 @@ left:0px;
 right:0px;
 }
 .flex-caption {zoom: 1;
-bottom: 0px; background-color: rgba(153, 191, 56, 1); color: #fff; margin: 0; padding: 15px 25px 15px 30px; /* position: absolute; */ left: 0; right: 0;/* text-align: center; *//* display: inline-block; */margin: 0 auto;width: 420px;bottom: -1px;}
+bottom: 0px; background-color: rgba(0, 65, 160, 1); color: #fff; margin: 0; padding: 15px 25px 15px 30px; /* position: absolute; */ left: 0; right: 0;/* text-align: center; *//* display: inline-block; */margin: 0 auto;width: 420px;bottom: -1px;}
 .flex-caption h3 {color: #FFF; font-size:30px; letter-spacing: 1px; margin-bottom: 8px; text-transform: uppercase; }
 .flex-caption p {margin: 0 0 15px; color: #FFF;font-size:18px!important;}
 .skill-home{
@@ -362,7 +362,7 @@ font-weight: 700;
 padding: 50px 0 60px 0;
 margin: 0 0 0 0; 
 text-align: center;
-background: rgba(153, 191, 56, 0.74);
+background: rgba(0,65,160, 0.74);
 }
 .testi-icon-area {
 text-align: center;
@@ -745,7 +745,7 @@ height: 100%;
 opacity: 0.80;
 filter: alpha(opacity=80);
 
-	background: #99BF38;
+	background: rgb(0, 65, 160);
 }
 
 .item-thumbs .hover-wrap .overlay-img-thumb {
@@ -785,12 +785,12 @@ ul.portfolio-categ li a{
 }
 ul.portfolio-categ li.active{
 
-border: 1px solid #99BF38;
+border: 1px solid rgb(0, 65, 160);
 
 
-color: #99BF38;
+color: rgb(0, 65, 160);
 
-background: #99BF38;
+background: rgb(0, 65, 160);
 
 }
 ul.portfolio-categ li.active a:hover, ul.portfolio-categ li a:hover,ul.portfolio-categ li a:focus,ul.portfolio-categ li a:active {
@@ -867,7 +867,7 @@ margin-bottom: 15px;
 }
 .info-blocks i.icon-info-blocks {
 float: left;
-color: #99BF38;
+color: rgb(0, 65, 160);
 font-size: 30px;
 min-width: 50px;
 margin-top: 10px;
@@ -925,7 +925,7 @@ blockquote cite a:visited 				{ color:#555; }
 
 /* --- button --- */
 .btn{text-align: center;
-background: #99BF38;
+background: rgb(0, 65, 160);
 color: #fff;
 padding: 10px 25px;border: 0;}
 .btn-theme {
@@ -1022,7 +1022,7 @@ margin-top: -42px;
 #service{ padding: 40px 0 40px;}
 #service .service-tab{}
 #service .service-tab ul{float: left;list-style: outside none none;padding: 0;margin-right: 55px;}
-#service .service-tab ul li{ border-right: 2px solid #99BF38;}
+#service .service-tab ul li{ border-right: 2px solid rgb(0, 65, 160);}
 #service .service-tab ul li a{color: #9FA9A9;  font-size: 20px; font-family: 'Raleway', sans-serif; font-weight: 400;display: block; padding: 10px 60px 20px 20px;}
 #service .service-tab ul li a i{font-size: 37px;  position: relative;top: 4px;width: 68px;} 
 li .active{
@@ -1039,13 +1039,13 @@ margin: 20px 15px 0 0;
 font-size: 28px;
 }
 #service .service-tab ul li.active, #service .service-tab ul li a:hover, #service .service-tab ul li a:hover i , #service .service-tab ul li.active a, #service .service-tab ul li.active i{
-background: rgb(153, 191, 56) !important;
+background: rgb(0, 65,160 ) !important;
 color: #FFFFFF; 
 text-decoration: none;
 }
 
 .contactInfo{
-background: #99BF38;
+background: rgb(0, 65, 160);
 }
 .contact-area{
 float:right;
@@ -1248,7 +1248,7 @@ background: #FFFFFF;
 .pricing-box-item .pricing-terms  h6 {
 	font-style:italic;
 	margin-top:10px;
-	color: #99BF38;
+	color: rgb(0, 65, 160);
 	font-size:17px;
 	font-family:'Noto Serif', serif;
 }
@@ -1388,7 +1388,7 @@ footer{
 }
 
 footer a {
-	color: #99BF38;
+	color: rgb(0, 65, 160);
 }
 
 footer a:hover {
@@ -1609,14 +1609,14 @@ border-radius: 50%;
   content: "\f0a9";
   float: left;
   font-family: fontAwesome;
-  color: #99bf38;
+  color: rgb(0, 65, 160);
   font-size: 14px;
   margin-top: -1px;
   margin-right: 7px;
   margin-left: 1px;
 }
 ul.social-network a {
-  color: #99BF38;
+  color: rgb(0, 65, 160);
 }
 /*  Media queries 
 ============================= */
