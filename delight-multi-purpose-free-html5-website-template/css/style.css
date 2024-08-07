@@ -1825,4 +1825,17 @@ width:100%;
 
 }
 
- 
+#hizmetler{
+	position: absolute;
+	display: none;
+	z-index: 1;
+}
+.hizmet-li:hover #hizmetler{
+	display: block;
+}
+#hizmetler ul li {
+	padding-bottom: 1rem;
+}
+#hizmetler ul li a {
+	text-decoration: none;
+}
