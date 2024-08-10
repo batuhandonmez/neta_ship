@@ -677,9 +677,9 @@ form#commentform textarea {
 	display: block;	
 }
 
-.work-nav #filters li a:hover {
+/* .work-nav #filters li a:hover {
 
-}
+} */
 
 .work-nav #filters li a.selected {
 	color: #DE5E60;
@@ -883,8 +883,8 @@ font-size: 20px;
 line-height: 28px;
 margin:0px;
 }
-.info-blocks .info-blocks-in p {
-}
+/* .info-blocks .info-blocks-in p {
+} */
   
 blockquote {
 	font-size:16px;
@@ -955,6 +955,7 @@ ul.link-list li{
 }
 footer{
 background: #313438;
+flex: 0 0 auto;
 }
 footer ul.link-list li a{
 	color: #BBBBBB;
@@ -1020,7 +1021,7 @@ margin-top: -42px;
 
 
 #service{ padding: 40px 0 40px;}
-#service .service-tab{}
+/* #service .service-tab{} */
 #service .service-tab ul{float: left;list-style: outside none none;padding: 0;margin-right: 55px;}
 #service .service-tab ul li{ border-right: 2px solid rgb(0, 65, 160);}
 #service .service-tab ul li a{color: #9FA9A9;  font-size: 20px; font-family: 'Raleway', sans-serif; font-weight: 400;display: block; padding: 10px 60px 20px 20px;}
@@ -1032,7 +1033,7 @@ background:red;
 #service  .tab-content>.tab-pane {
 padding-top: 10px;
 }
-#service .service-tab ul li a:hover i{}
+/* #service .service-tab ul li a:hover i{} */
 .tab-icon-edit {
 float: left;
 margin: 20px 15px 0 0;
@@ -1219,9 +1220,9 @@ background: #FFFFFF;
 	display:block;
 	color:#fff;
 }
-.pricing-box-item.activeItem .pricing-heading h3 {
+/* .pricing-box-item.activeItem .pricing-heading h3 {
 	 
-}
+} */
 
 .pricing-box-item .pricing-heading h3 strong {
 	font-size:28px;
@@ -1533,8 +1534,6 @@ article img.pull-right, article .align-right{
 	float:right;
 	margin:5px 0 15px 15px;
 }
- ============================= */
-
 .clear-marginbot{
 	margin-bottom:0;
 }
@@ -1771,7 +1770,7 @@ padding-top: 12px;
 	}
 
 	#sub-footer ul.social-network {
-		float:left;
+		float:top;
 	}
 	
 
@@ -1838,4 +1837,12 @@ width:100%;
 }
 #hizmetler ul li a {
 	text-decoration: none;
+}
+
+.slides img {
+	width: 100%;
+	height: 700px;
+	/* object-fit: contain; */
+	/* filter: blur(7px); */
+	/* background-image: url(img/gemi/1.jpeg); */
 }
