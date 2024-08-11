@@ -135,3 +135,9 @@ jQuery(document).ready(function($) {
     });
 
 });
+
+const video = document.getElementById('myVideo');
+    video.addEventListener('ended', () => {
+        // Video bittiğinde yapılacak işlemler (örneğin, başka bir sayfaya yönlendirme)
+        window.location.href = 'index.html';
+    });
