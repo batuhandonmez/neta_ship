@@ -137,7 +137,9 @@ jQuery(document).ready(function($) {
 });
 
 const video = document.getElementById('myVideo');
+video.playbackRate=3.0;
     video.addEventListener('ended', () => {
         // Video bittiğinde yapılacak işlemler (örneğin, başka bir sayfaya yönlendirme)
         window.location.href = 'index.html';
     });
+
