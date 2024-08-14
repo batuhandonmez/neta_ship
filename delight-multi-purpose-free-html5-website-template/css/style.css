@@ -1851,3 +1851,10 @@ width:100%;
 	width: 100%;
 	height: 100%;
 }
+
+#servicesList li {
+	font-size: 3rem;
+	margin: 1.98rem;
+	font-style: inherit;
+	color: #282A2D;
+}
