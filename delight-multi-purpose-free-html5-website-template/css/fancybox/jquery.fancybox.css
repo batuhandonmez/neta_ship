@@ -237,7 +237,7 @@ background-position-y: -72px;
 /* Title helper */
 
 .fancybox-title {
-	visibility: hidden;
+	visibility: visible;
 	position: relative;
 	text-shadow: none;
 	z-index: 8050;
