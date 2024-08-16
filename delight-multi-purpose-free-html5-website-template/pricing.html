@@ -30,7 +30,7 @@
                             <div class="contact-area">
                                 <ul>
                                     <!-- <li><i class="fa fa-phone-square"></i></li> -->
-                                    <li><i class="fa fa-envelope-o"></i>info@Delight.com</li>
+                                    <li><i class="fa fa-envelope-o"></i>agency@netashipping.com.tr</li>
                                 </ul>
                             </div> 
                     </div> 
@@ -44,16 +44,31 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"/></a>
+                    <a class="navbar-brand" href="main.html" style="position: absolute; bottom: 5rem;">
+						<img src="img/neta_logo.jpeg" alt="logo" style="object-fit: contain; width: 10rem; height:9rem; padding-bottom: 0.2rem;"/>
+					  </a>
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
                         <li><a href="main.html">Anasayfa</a></li> 
 						<li><a href="about.html">Hakkımızda</a></li>
-						<li><a href="services.html">Hizmetlerimiz</a></li>
-                        <li><a href="portfolio.html">Galeri</a></li>
+						<li class="hizmet"><a href="#">HİZMETLERİMİZ</a>	
+   
+							<!-- <div id="hizmetler" style=" background-color :#e7e7e7; width:20rem;" > -->
+							  <ul class="dropdown" style="font-size: 13px;">
+								<li><a href="gemiacente.html">Gemi ACENTESİ</a></li>
+								<!-- <li><a href="#">İstanbul ve Çanakkale boğazlarında transit geçiş hizmeti </a></li>
+								<li><a href="#">Transit Yük Aktarma Hizmetleri</a></li>
+								<li><a href="#">Yakıt Tedarik Hizmetleri</a></li>
+								<li><a href="#">Yedek Parça Tedariği</a></li> -->
+								<li><a href="gemikiralama.html">Gemi KİRALAMA</a></li>
+							  </ul>
+							<!-- </div> -->
+		  
+						  </li>
+                        <li><a href="portfolio.html">GALERİ</a></li>
                         <li class="active"><a href="pricing.html">PDA</a></li>
-                        <li><a href="contact.html">İletişim</a></li>
+                        <li><a href="contact.html">İLETİŞİM</a></li>
                     </ul>
                 </div>
             </div>
@@ -63,7 +78,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<h2 class="pageTitle">Pricing</h2>
+				<h2 class="pageTitle">PDA</h2>
 			</div>
 		</div>
 	</div>
@@ -71,168 +86,84 @@
 	<section id="content">
 	<div class="container">	 
 		<!-- end divider -->
-		<div class="row">
-			<div class="col-lg-12">
-				<h4>Our best plans</h4>
+		
+		
+		<div style="overflow: hidden;">
+			<div class="contact-form col-lg-5" style="float: left;">
+				<h2>PROFORMA FATURA TALEBİ</h2>
+				<form id="contact-form" role="form" novalidate="novalidate" name="mail_form" method="post" action="index.php">
+				   <div class="form-group has-feedback">
+						<label for="name">Gemi İsmi*</label>
+						<input type="text" class="form-control" id="name" name="name" placeholder="">
+						<i class="fa fa-user form-control-feedback"></i>
+					</div>
+					<div class="form-group has-feedback ">
+						<label for="email">IMO NUMBER*</label>
+						<input type="email" class="form-control" id="email" name="email" placeholder="">
+						<i class="fa fa-envelope form-control-feedback"></i>
+					</div>
+					<div class="form-group has-feedback">
+						<label for="subject">Bayrak*</label>
+						<input type="text" class="form-control" rows="1" id="subject" name="subject" placeholder="">
+						<i class="fa fa-navicon form-control-feedback"></i>
+					</div>
+					<div class="form-group has-feedback">
+						<label for="message">Net Tonaj*</label>
+						<textarea class="form-control" rows="1" id="message" name="message" placeholder=""></textarea>
+						<i class="fa fa-pencil form-control-feedback"></i>
+					</div>
+					<div class="form-group has-feedback">
+						<label for="message">Gross Ton*</label>
+						<textarea class="form-control" rows="1" id="message" name="message" placeholder=""></textarea>
+						<i class="fa fa-pencil form-control-feedback"></i>
+					</div>
+					<div class="form-group has-feedback">
+						<label for="message">Yük Tonajı*</label>
+						<textarea class="form-control" rows="1" id="message" name="message" placeholder=""></textarea>
+						<i class="fa fa-pencil form-control-feedback"></i>
+					</div>
+					<div class="form-group has-feedback">
+						<input type="submit" name="submit" value="Gönder" class="btn btn-default" id="submit-buton"></a>
+					</div>
+					
+					 <!-- <button style="width: 8rem; height: 4rem; cursor: pointer; background-color: rgb(0,	 65 , 160); border: 10px solid rgb(0,	 65 , 160);">
+						<a href="mailto:agency@netashipping.com?subject=" style="text-decoration: none; color: white; ">
+							Gönder
+						</a>
+					 </button> -->
+				</form>
 			</div>
-			<div class="col-md-3">
-				<div class="pricing-box-item">
-					<div class="pricing-heading">
-						<h3><strong>Basic</strong></h3>
-					</div>
-					<div class="pricing-terms">
-						<h6>&#36;15.00 / Year</h6>
-					</div>
-					<div class="pricing-container">
-						<ul>
-							<li><i class="icon-ok"></i> Responsive Design</li>
-							<li><i class="icon-ok"></i> Bootstrap Design</li>
-							<li><i class="icon-ok"></i> Unlimited Support</li>
-							<li><i class="icon-ok"></i> Free Trial version</li>
-							<li><i class="icon-ok"></i> HTML5 CSS3 jQuery</li>
-						</ul>
-					</div>
-					<div class="pricing-action">
-						<a href="#" class="btn btn-medium btn-theme"><i class="icon-bolt"></i> Get Now</a>
-					</div>
-				</div>
+			<div class="col-lg-6" style="display: inline; float: inline-end;">
+				<img class="col-lg-12" src="img/neta_logo.jpeg" alt="" style="display: inline-block;">
 			</div>
-			<div class="col-md-3">
-				<div class="pricing-box-item">
-					<div class="pricing-heading">
-						<h3><strong>Standard</strong></h3>
-					</div>
-					<div class="pricing-terms">
-						<h6>&#36;20.00 / Year</h6>
-					</div>
-					<div class="pricing-container">
-						<ul>
-							<li><i class="icon-ok"></i> Responsive Design</li>
-							<li><i class="icon-ok"></i> Bootstrap Design</li>
-							<li><i class="icon-ok"></i> Unlimited Support</li>
-							<li><i class="icon-ok"></i> Free Trial version</li>
-							<li><i class="icon-ok"></i> HTML5 CSS3 jQuery</li>
-						</ul>
-					</div>
-					<div class="pricing-action">
-						<a href="#" class="btn btn-medium btn-theme"><i class="icon-bolt"></i> Get Now</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="pricing-box-item activeItem">
-					<div class="pricing-heading">
-						<h3><strong>Advanced</strong></h3>
-					</div>
-					<div class="pricing-terms">
-						<h6>&#36;15.00 / Year</h6>
-					</div>
-					<div class="pricing-container">
-						<ul>
-							<li><i class="icon-ok"></i> Responsive Design</li>
-							<li><i class="icon-ok"></i> Bootstrap Design</li>
-							<li><i class="icon-ok"></i> Unlimited Support</li>
-							<li><i class="icon-ok"></i> Free Trial version</li>
-							<li><i class="icon-ok"></i> HTML5 CSS3 jQuery</li>
-						</ul>
-					</div>
-					<div class="pricing-action">
-						<a href="#" class="btn btn-medium btn-theme"><i class="icon-bolt"></i> Get Now</a>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="pricing-box-item">
-					<div class="pricing-heading">
-						<h3><strong>Mighty</strong></h3>
-					</div>
-					<div class="pricing-terms">
-						<h6>&#36;15.00 / Year</h6>
-					</div>
-					<div class="pricing-container">
-						<ul>
-							<li><i class="icon-ok"></i> Responsive Design</li>
-							<li><i class="icon-ok"></i> Bootstrap Design</li>
-							<li><i class="icon-ok"></i> Unlimited Support</li>
-							<li><i class="icon-ok"></i> Free Trial version</li>
-							<li><i class="icon-ok"></i> HTML5 CSS3 jQuery</li>
-						</ul>
-					</div>
-					<div class="pricing-action">
-						<a href="#" class="btn btn-medium btn-theme"><i class="icon-bolt"></i> Get Now</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	</section>
-	<footer>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3">
-				<div class="widget">
-					<h5 class="widgetheading">Our Contact</h5>
-					<address>
-					<strong>Delight company Inc</strong><br>
-					JC Main Road, Near Silnile tower<br>
-					 Pin-21542 NewYork US.</address>
-					<p>
-						<i class="icon-phone"></i> (123) 456-789 - 1255-12584 <br>
-						<i class="icon-envelope-alt"></i> email@domainname.com
-					</p>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="widget">
-					<h5 class="widgetheading">Quick Links</h5>
-					<ul class="link-list">
-						<li><a href="#">Latest Events</a></li>
-						<li><a href="#">Terms and conditions</a></li>
-						<li><a href="#">Privacy policy</a></li>
-						<li><a href="#">Career</a></li>
-						<li><a href="#">Contact us</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-md-3">
-				<div class="widget">
-					<h5 class="widgetheading">Latest posts</h5>
-					<ul class="link-list">
-						<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-						<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
-						<li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="col-md-3">
-					<div class="widget">
-					<h5 class="widgetheading">Recent News</h5>
-					<ul class="link-list">
-						<li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a></li>
-						<li><a href="#">Pellentesque et pulvinar enim. Quisque at tempor ligula</a></li>
-						<li><a href="#">Natus error sit voluptatem accusantium doloremque</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
+		</div>	
+			
+			
+		
 	</div>
 	<div id="sub-footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-6">
+				<!-- <div class="col-lg-6">
 					<div class="copyright">
 						<p>
 							<span>&copy; Delight 2015 All right reserved. By </span><a href="http://webthemez.com" Delight="_blank">WebThemez</a>
 						</p>
 					</div>
-				</div>
-				<div class="col-lg-6">
+				</div> -->
+				<div class="col-lg-7">
 					<ul class="social-network">
-						<li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
-						<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus"></i></a></li>
+						<!-- <li><a href="#" data-placement="top" title="Facebook" style="font-size: 2em;"><i
+									class="fa fa-facebook"></i></a></li> -->
+						<!-- <li><a href="#" data-placement="top" title="Twitter" style="font-size: 2em;"><i
+									class="fa fa-twitter"></i></a></li> -->
+						<li><a href="https://www.linkedin.com/company/neta-deniz-ta%C5%9F%C4%B1mac%C4%B1l%C4%B1%C4%9F%C4%B1/"
+								data-placement="top" title="Linkedin" style="font-size: 2em;" target="_blank"><i
+									class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://www.instagram.com/netaship/?igsh=NDVlOWVlaWI3YTJj" data-placement="top" title="Instagram" style="font-size: 2em;" target="_blank"><i
+									class="fa fa-instagram"></i></a></li>
+						<!-- <li><a href="#" data-placement="top" title="Google plus" style="font-size: 2em;"><i
+									class="fa fa-google-plus"></i></a></li> -->
 					</ul>
 				</div>
 			</div>
