@@ -1824,6 +1824,18 @@ width:100%;
 
 }
 
+.dropdown{
+	display: none;
+    position: absolute;
+		/* left: 100%; 
+		top: 0; */
+    background-color: white;
+    min-width: 200px;
+}
+.hizmet:hover .dropdown {
+    display: block;
+}
+/* 
 #hizmetler{
 	position: absolute;
 	display: none;
@@ -1837,7 +1849,7 @@ width:100%;
 }
 #hizmetler ul li a {
 	text-decoration: none;
-}
+} */
 
 .slides img {
 	width: 100%;
