@@ -92,6 +92,7 @@
 	
 	<div class="container">
 	<div class="row">
+		
 								<div class="col-md-6">
 									<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor.</p> -->
 									<!-- <div class="alert alert-success hidden" id="contactSuccess">
@@ -101,7 +102,9 @@
 										<strong>Error!</strong> There was an error sending your message.
 									</div> -->
 									<div class="contact-form" style="display: inline-block">
-										<form id="contact-form" role="form" novalidate="novalidate" name="mail_form" method="post" action="index.php">
+										<form
+										onsubmit="formGonder()"
+										id="contact-form" role="form" novalidate="novalidate" name="mail_form" method="post" action="/mail.php">
 											<div class="form-group has-feedback">
 												<label for="name">İsim Soyisim*</label>
 												<input type="text" class="form-control" id="name" name="name" placeholder="">
@@ -240,6 +243,35 @@
 <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
 <!-- javascript
     ================================================== -->
+<script>
+	function formGonder () {
+		event.preventDefault()
+
+		let form = event.target;
+		let formData = new FormData(form)
+
+
+		console.log('form', formData)
+	
+  fetch('/mail.php', {
+    method: "POST",
+    body: formData,
+  })
+  .then(response => response.json())
+  .then(function(response) {
+	if (response.success) {
+		alert('Mail başarıyla gönderildi')
+	} else {
+		alert('Hata, formu kontrol ediniz')
+	}
+  })
+  .catch(function(err) {
+	console.log(err)
+	alert("Hata")
+  })
+}
+</script>
+
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="js/jquery.js"></script>
 <script src="js/jquery.easing.1.3.js"></script>
