@@ -158,4 +158,5 @@ function openModal(element) {
 function closeModal() {
     var modal = document.getElementById("myModal");
     modal.style.display = "none";
+    nav.style.zIndex="9999";
 }
