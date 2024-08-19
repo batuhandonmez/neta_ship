@@ -143,3 +143,19 @@ video.playbackRate=3.0;
         window.location.href = 'main.html';
     });
 
+// Modalı açma işlevi
+function openModal(element) {
+    var modal = document.getElementById("myModal");
+    var modalImg = document.getElementById("imgModal");
+    var nav = document.getElementById("nav");
+
+    nav.style.zIndex="-1";
+    modal.style.display = "block";
+    modalImg.src = element.src; // Tıklanan resmin kaynağını modal içeriğine ata
+}
+
+// Modalı kapatma işlevi
+function closeModal() {
+    var modal = document.getElementById("myModal");
+    modal.style.display = "none";
+}
