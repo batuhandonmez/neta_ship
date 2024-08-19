@@ -1870,3 +1870,52 @@ width:100%;
 	font-style: inherit;
 	color: #282A2D;
 }
+
+
+
+
+.portfolio img {
+    width: 100%; /* Küçük resim boyutu */
+    max-width: 300px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.3s;
+}
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Modal içeriği */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 1000px;
+}
+
+/* Close butonu */
+.close {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
